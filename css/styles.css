@@ -74,6 +74,7 @@ img {
   align-items: center;
   margin-left: 331px; 
 }
+
 .header-contact-link:not(:last-child){
   margin-right: 50px;
 }
@@ -137,12 +138,31 @@ img {
 }
 
 /*HERO*/
+.hero {
+  background-color: #C4C4C4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .undertitle{
-  padding-top: 94px;
   padding-bottom: 10px;
 }
 .main-title-list{
   display: flex;
+}
+.icon-container{
+ display: flex;
+ justify-content: center;
+ width: 270px;
+ height: 120px;
+ background: #F5F4FA;
+ border-radius: 4px;
+ margin-top: 94px;
+ margin-bottom: 30px;
 }
 .description {
   width: 270px;
@@ -159,8 +179,8 @@ img {
   line-height: 1.363;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2f303a;
   padding-top: 200px;
+
 }
 .undertitle {
   font-weight: 700;
@@ -216,6 +236,22 @@ img {
 .button:hover,
 .button:focus {
   background-color: #2196f3;
+}
+.regular-clients-list{
+  display: flex;
+  justify-content: space-between;
+}
+.regular-clients-icon{
+ box-sizing: border-box;
+ width: 170px;
+ height: 90px;
+ border: 1px solid #AFB1B8;
+ border-radius: 4px;
+}
+.clients-icon-link{
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*END HERO*/
 
