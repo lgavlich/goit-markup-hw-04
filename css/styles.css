@@ -51,6 +51,13 @@ img {
 }
 
 /*HEADER*/
+.icon-address:hover,
+.icon-address:focus{
+  fill: var(--accent-color);
+}
+.icon-address{
+  margin-right: 10px;
+}
 .header .container{
   display: flex;
   align-items: center;
@@ -72,16 +79,17 @@ img {
 .address {
   display: flex;
   align-items: center;
-  margin-left: 331px; 
+  margin-left: 321px; 
 }
 
 .header-contact-link:not(:last-child){
-  margin-right: 50px;
+  margin-right: 40px;
 }
+
 .header-contact{
   display: flex;
-  align-items: center;
-}
+  justify-content: center;
+  }
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -123,6 +131,10 @@ img {
 }
 .nav-list-link{
   color: var(--accent-color);
+}
+.header-contact-link{
+display: flex;
+justify-content: center;
 }
 
 /*END HEADER*/
@@ -312,7 +324,7 @@ background: #F5F4FA;
 
 .social-list{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
  }
 
 .social-icon{
@@ -372,6 +384,13 @@ padding-top: 20px;
 /*END CONTACT*/
 
 /*OUR WORKS*/
+.works-blok{
+  cursor: pointer;
+ }
+ .container-works-foto:hover,
+ .container-works-foto:focus{
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ }
 
 .button-icon{
   font-family: Roboto, sans-serif;
@@ -440,4 +459,44 @@ margin-top: 30px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--text-white-color);
+}
+
+.footer-text{
+ font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-container-icon{
+  display: flex;
+  
+  padding-top: 20px;
+}
+.footer-icon-link{
+   display: inline-flex;  
+   justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  }
+.footer-icon{
+  fill: #ffffff;
+}
+.footer-icon-link:hover,
+.footer-icon-link:focus{
+  background-color: var(--accent-color);
+}
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-cotainer{
+  margin-left: 70px;
+}
+.footer-icon-list:not(:last-child){
+  padding-right:10px;
 }
