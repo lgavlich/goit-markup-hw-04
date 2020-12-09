@@ -180,14 +180,20 @@ img {
 } 
 .hero {
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  padding-top: 200px;
+  color: #ffffff;  
   text-transform: uppercase;
   
 }
@@ -260,6 +266,7 @@ margin-top: 94px;
   margin-top: 50px;
   margin-bottom: 94px;
 }
+
 .clients-icon-link{
    display: flex;
   justify-content: center;
