@@ -70,9 +70,6 @@ img {
   margin-right: 50px;
 }
 
-.header-contact-link:not(:last-child){
-  margin-right: 40px;
-}
 .header-contact-link:focus,
 .header-contact-link:hover,{
   color: var(--accent-color);
