@@ -136,6 +136,17 @@ img {
 .nav-list-link{
   color: var(--accent-color);
 }
+.nav-list-link::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  left: 453px;
+  top: 76px;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
 .address{
   display: flex;
   margin-left: auto;
@@ -201,11 +212,10 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  max-width: 1600px;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
-  height: 600px;
-  text-align: center;
 }
 .hero-title {
   font-weight: 900;
